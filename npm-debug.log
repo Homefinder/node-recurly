@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json node-recurly@2.1.0 No repository field.
+5 warn package.json node-recurly@2.1.0 bugs['web'] should probably be bugs['url'].
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/bfischer/Downloads/node-recurly',
+7 verbose install   [ 'xml2js', 'js2xml' ] ]
+8 info preinstall node-recurly@2.1.0
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping xml2js@>= 0.4.0 /Users/bfischer/Downloads/node-recurly
+11 verbose cache add [ 'js2xml@git@github.com:philjackson/js2xml.git#0.0.3', null ]
+12 verbose cache add name=undefined spec="js2xml@git@github.com:philjackson/js2xml.git#0.0.3" args=["js2xml@git@github.com:philjackson/js2xml.git#0.0.3",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: '#0.0.3',
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'js2xml@git@github.com:philjackson/js2xml.git',
+13 verbose parsed url   path: 'js2xml@git@github.com:philjackson/js2xml.git',
+13 verbose parsed url   href: 'js2xml@git@github.com:philjackson/js2xml.git#0.0.3' }
+14 verbose cache add name="js2xml" spec="git@github.com:philjackson/js2xml.git#0.0.3" args=["js2xml","git@github.com:philjackson/js2xml.git#0.0.3"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: '#0.0.3',
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'git@github.com:philjackson/js2xml.git',
+15 verbose parsed url   path: 'git@github.com:philjackson/js2xml.git',
+15 verbose parsed url   href: 'git@github.com:philjackson/js2xml.git#0.0.3' }
+16 verbose addNamed [ 'js2xml', 'git@github.com:philjackson/js2xml.git#0.0.3' ]
+17 verbose addNamed [ null, null ]
+18 silly lockFile 7ea1d076-com-philjackson-js2xml-git-0-0-3 js2xml@git@github.com:philjackson/js2xml.git#0.0.3
+19 verbose lock js2xml@git@github.com:philjackson/js2xml.git#0.0.3 /Users/bfischer/.npm/7ea1d076-com-philjackson-js2xml-git-0-0-3.lock
+20 info addNameTag [ 'js2xml', 'git@github.com:philjackson/js2xml.git#0.0.3' ]
+21 verbose request where is /js2xml
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 2abbf02a75e56362
+24 verbose url raw /js2xml
+25 verbose url resolving [ 'https://registry.npmjs.org/', './js2xml' ]
+26 verbose url resolved https://registry.npmjs.org/js2xml
+27 verbose request where is https://registry.npmjs.org/js2xml
+28 info trying registry request attempt 1 at 12:17:03
+29 verbose etag "C1DOO03IR3H6TQRJOL7TFV8O9"
+30 http GET https://registry.npmjs.org/js2xml
+31 http 304 https://registry.npmjs.org/js2xml
+32 silly registry.get cb [ 304,
+32 silly registry.get   { date: 'Thu, 14 May 2015 17:17:03 GMT',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     'cache-control': 'max-age=60',
+32 silly registry.get     etag: '"C1DOO03IR3H6TQRJOL7TFV8O9"',
+32 silly registry.get     age: '26',
+32 silly registry.get     connection: 'keep-alive',
+32 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+32 silly registry.get     'x-cache': 'HIT',
+32 silly registry.get     'x-cache-hits': '1',
+32 silly registry.get     'x-timer': 'S1431623823.877282,VS0,VE0',
+32 silly registry.get     vary: 'Accept' } ]
+33 verbose etag https://registry.npmjs.org/js2xml from cache
+34 info maybeGithub Attempting git@github.com:philjackson/js2xml.git#0.0.3 from git://github.com/git@github.com:philjackson/js2xml.git#0.0.3
+35 silly lockFile 4f68bbb8-ithub-com-philjackson-js2xml-git git://github.com/git@github.com:philjackson/js2xml.git
+36 verbose lock git://github.com/git@github.com:philjackson/js2xml.git /Users/bfischer/.npm/4f68bbb8-ithub-com-philjackson-js2xml-git.lock
+37 verbose addRemoteGit [ 'git://github.com/git@github.com:philjackson/js2xml.git',
+37 verbose addRemoteGit   '0.0.3' ]
+38 verbose git clone git://github.com/git@github.com:philjackson/js2xml.git Cloning into bare repository '/Users/bfischer/.npm/_git-remotes/git-github-com-git-github-com-philjackson-js2xml-git-4f68bbb8'...
+38 verbose git clone git://github.com/git@github.com:philjackson/js2xml.git fatal: remote error:
+38 verbose git clone git://github.com/git@github.com:philjackson/js2xml.git   git@github.com:philjackson/js2xml is not a valid repository name
+38 verbose git clone git://github.com/git@github.com:philjackson/js2xml.git   Email support@github.com for help
+39 silly lockFile 4f68bbb8-ithub-com-philjackson-js2xml-git git://github.com/git@github.com:philjackson/js2xml.git
+40 silly lockFile 4f68bbb8-ithub-com-philjackson-js2xml-git git://github.com/git@github.com:philjackson/js2xml.git
+41 info maybeGithub Attempting git@github.com:philjackson/js2xml.git#0.0.3 from git+ssh://git@github.com:git@github.com:philjackson/js2xml.git#0.0.3
+42 silly lockFile b80131e8-ithub-com-philjackson-js2xml-git git@github.com:git@github.com:philjackson/js2xml.git
+43 verbose lock git@github.com:git@github.com:philjackson/js2xml.git /Users/bfischer/.npm/b80131e8-ithub-com-philjackson-js2xml-git.lock
+44 verbose addRemoteGit [ 'git@github.com:git@github.com:philjackson/js2xml.git',
+44 verbose addRemoteGit   '0.0.3' ]
+45 error git clone git@github.com:git@github.com:philjackson/js2xml.git Cloning into bare repository '/Users/bfischer/.npm/_git-remotes/git-github-com-git-github-com-philjackson-js2xml-git-b80131e8'...
+45 error git clone git@github.com:git@github.com:philjackson/js2xml.git fatal: remote error:
+45 error git clone git@github.com:git@github.com:philjackson/js2xml.git    is not a valid repository name
+45 error git clone git@github.com:git@github.com:philjackson/js2xml.git   Email support@github.com for help
+46 silly lockFile b80131e8-ithub-com-philjackson-js2xml-git git@github.com:git@github.com:philjackson/js2xml.git
+47 silly lockFile b80131e8-ithub-com-philjackson-js2xml-git git@github.com:git@github.com:philjackson/js2xml.git
+48 silly lockFile 7ea1d076-com-philjackson-js2xml-git-0-0-3 js2xml@git@github.com:philjackson/js2xml.git#0.0.3
+49 silly lockFile 7ea1d076-com-philjackson-js2xml-git-0-0-3 js2xml@git@github.com:philjackson/js2xml.git#0.0.3
+50 error notarget No compatible version found: js2xml@'git@github.com:philjackson/js2xml.git#0.0.3'
+50 error notarget Valid install targets:
+50 error notarget ["0.0.1","0.0.2","0.0.3","0.0.4","0.0.5","0.0.6","0.0.7","1.0.0","1.0.2"]
+50 error notarget
+50 error notarget This is most likely not a problem with npm itself.
+50 error notarget In most cases you or one of your dependencies are requesting
+50 error notarget a package version that doesn't exist.
+51 error System Darwin 14.3.0
+52 error command "node" "/usr/local/bin/npm" "install"
+53 error cwd /Users/bfischer/Downloads/node-recurly
+54 error node -v v0.10.32
+55 error npm -v 1.4.28
+56 error code ETARGET
+57 verbose exit [ 1, true ]
