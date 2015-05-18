@@ -1,0 +1,54 @@
+{
+  "name": "node-recurly",
+  "version": "2.1.0",
+  "dependencies": {
+    "js2xml": {
+      "version": "0.0.3",
+      "from": "js2xml@0.0.3",
+      "resolved": "git+https://github.com/philjackson/js2xml#b3ed077adef31e2e04cbefdd7d3a437f598a62eb",
+      "dependencies": {
+        "libxmljs": {
+          "version": "0.8.1",
+          "from": "libxmljs@*",
+          "resolved": "https://registry.npmjs.org/libxmljs/-/libxmljs-0.8.1.tgz",
+          "dependencies": {
+            "bindings": {
+              "version": "1.0.0",
+              "from": "bindings@1.0.0",
+              "resolved": "https://registry.npmjs.org/bindings/-/bindings-1.0.0.tgz"
+            },
+            "nan": {
+              "version": "1.8.4",
+              "from": "nan@1.8.4",
+              "resolved": "https://registry.npmjs.org/nan/-/nan-1.8.4.tgz"
+            }
+          }
+        }
+      }
+    },
+    "xml2js": {
+      "version": "0.4.8",
+      "from": "xml2js@>= 0.4.0",
+      "resolved": "https://registry.npmjs.org/xml2js/-/xml2js-0.4.8.tgz",
+      "dependencies": {
+        "sax": {
+          "version": "0.6.1",
+          "from": "sax@0.6.x",
+          "resolved": "https://registry.npmjs.org/sax/-/sax-0.6.1.tgz"
+        },
+        "xmlbuilder": {
+          "version": "2.6.2",
+          "from": "xmlbuilder@>=2.4.6",
+          "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-2.6.2.tgz",
+          "dependencies": {
+            "lodash": {
+              "version": "3.5.0",
+              "from": "lodash@~3.5.0",
+              "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.5.0.tgz"
+            }
+          }
+        }
+      }
+    }
+  }
+}
